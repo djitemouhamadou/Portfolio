@@ -2,25 +2,25 @@ import React from 'react';
 import { GraduationCapIcon, CalendarIcon, MapPinIcon } from 'lucide-react';
 export const Education = () => {
   const educationItems = [{
-    degree: "Diplôme d'ingénieur",
-    field: 'Mathématiques & Informatique',
+    degree: "Engineering Degree",
+    field: 'Mathematics & Computer Science',
     institution: 'CY TECH',
     location: 'Cergy',
-    period: '2022/2022 - 2025/2025',
+    period: '2022 - 2025',
     current: true
   }, {
-    degree: 'Classe préparatoire',
-    field: 'PCSI',
+    degree: 'Preparatory Class for Engineering Schools',
+    field: 'Physics, Chemistry and Engineering Sciences (PCSI)',
     institution: 'Lycée Henri Poincaré',
     location: 'Nancy',
     period: '2020 - 2022'
   }, {
-    degree: 'Baccalauréat',
-    field: 'Série S1',
+    degree: 'High School Diploma',
+    field: 'Série S1 - Mathematics, Physics and Chemistry',
     institution: 'Athéna Sédar',
     location: 'Dakar, SENEGAL',
     period: '2020',
-    mention: 'Mention Bien'
+    mention: 'Honors (Mention Bien)'
   }];
   return <section id="education" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">

@@ -7,7 +7,7 @@ export const Hero = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <div className="rounded-full overflow-hidden border-4 border-white w-56 h-56 md:w-72 md:h-72 mx-auto">
-              <img src="/Capture_d%E2%80%99ecran_2025-11-13_a_14.38.37.png" alt="Mouhamadou Moustapha Djite" className="w-full h-full object-cover" />
+              <img src="/profile.jpg" alt="Mouhamadou Moustapha Djite" className="w-full h-full object-cover" />
             </div>
           </div>
           <div className="md:w-1/2 md:pl-10 text-center md:text-left">

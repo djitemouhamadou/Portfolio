@@ -6,19 +6,25 @@ export const Experience = () => {
     company: 'ENEDIS',
     location: 'Noisy-Le-Grand, France',
     period: '09/2023 - 09/2025',
-    responsibilities: ['Analyse et structuration de données multi-métiers.', 'Conception de dashboards automatisés, réduisant le temps de reporting de plusieurs heures/mois et facilitant la prise de décision.', "Support aux équipes dans l'exploitation de leurs données.", "Animation de 6 sessions pour l'Académie Data (20 collaborateurs formés à Power BI).", 'Gestion de projets data: recueil du besoin, production, restitution, prise en compte des retours.']
+    responsibilities: ["Analysis and structuring of cross-functional data.",
+      "Design of automated dashboards, reducing reporting time by several hours per month and improving decision-making.",
+      "Support for teams in leveraging their data effectively.",
+      "Facilitation of six training sessions for the Data Academy (20 employees trained in Power BI).",
+      "Data project management: requirements gathering, production, delivery, and integration of feedback."]
   }, {
-    title: 'Stage en statistiques et analyse de données',
+    title: 'Internship in Statistics and Data Analysis',
     company: 'ANSD',
-    location: 'Dakar, Sénégal',
+    location: 'Dakar, Senegal',
     period: '06/2024 - 09/2024',
-    responsibilities: ["Supervision terrain et contrôle qualité dans le cadre d'enquêtes statistiques nationales.", 'Traitement et nettoyage des données (Stata, R) pour garantir leur exploitabilité analytique.', 'Visualisation des résultats via dashboards clairs et graphiques interactifs, facilitant la prise de décision.']
+    responsibilities: ["Field supervision and quality control as part of national statistical surveys.",
+      "Data processing and cleaning (Stata, R) to ensure analytical usability.",
+      "Visualization of results through clear dashboards and interactive charts to support decision-making."]
   }, {
-    title: 'Professeur de mathématiques',
+    title: 'Mathematics Teacher',
     company: 'Complétude',
     location: '',
     period: '09/2022 - 10/2023',
-    responsibilities: ["Pédagogie personnalisée favorisant l'autonomie et la compréhension des élèves."]
+    responsibilities: ["Personalized teaching promoting student autonomy and understanding."]
   }];
   return <section id="experience" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 md:px-6">

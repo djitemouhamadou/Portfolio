@@ -41,7 +41,7 @@ export const About = () => {
               </h3>
               <div className="space-y-3">
                 <div>
-                  <div className="flex justify-between mb-1">
+                  <div className="flex justify-between mb-1 gap-4">
                     <span>English</span>
                     <span>Advanced (C1)</span>
                   </div>
